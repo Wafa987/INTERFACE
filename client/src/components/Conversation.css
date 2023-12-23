@@ -1,0 +1,211 @@
+.mainPere {
+    display: flex;
+    flex-direction: row;
+    width: 70vw;
+}
+
+.main-content {
+    flex: 1;
+    border-left: 1px solid #ddd;
+    width: 70vw;
+    height: 100vh;
+    margin-bottom: 3vh;
+    overflow: hidden;
+    margin-top: 5vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid white;
+    padding: 6px;
+    background-color: #f5f5f5;
+}
+
+.header h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.navbarmessage {
+    display: flex;
+}
+
+.header button {
+    font-size: 1.3rem;
+    background-color: #dddddd7c;
+    border: none;
+    border-radius: 100px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.header button:hover {
+    background-color: rgba(128, 128, 128, 0.452);
+}
+
+.conversation {
+    height: 60vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.message {
+    position: relative;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.sent {
+    align-self: flex-start;
+    background-color: burlywood;
+    color: white;
+    max-width: 70%;
+}
+
+
+.received {
+    align-self: flex-end;
+    background-color: #ff0000ad;
+    color: white;
+    max-width: 70%;
+}
+  
+
+
+
+.message:hover {
+    background-color: rgba(0, 0, 0, 0.219);
+}
+
+.time {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.input-area {
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+    border-top: 2px solid #00000000;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    margin-right: 10px;
+    transition: box-shadow 0.3s ease;
+}
+
+input:focus {
+    box-shadow: 0 0 5px 2px #bbb;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-icon {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.file-button,
+.photo-button {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.file-button .icon,
+.photo-button .icon {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 3px;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.fichier {
+    font-size: 1.8rem;
+    margin-left: 0.5vw;
+}
+
+.search-input {
+    margin-top: 1px;
+}
+
+.header img {
+    margin: 400vw 1vw 0.5;
+    width: 70px;
+    height: auto;
+    margin-top: 25px;
+}
+
+.header h2 {
+    margin-left: 80px;
+    margin-top: -60px;
+
+}
+
+.header h6 {
+    margin-left: 80px;
+    margin-top: -5px;
+
+}
+
+.Chats h2 {
+    margin-left: 80px;
+    margin-top: -3px;
+
+}
+
+.contactInfo {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    width: 18vw;
+    overflow-y: auto;
+}
+ 
+.emoji-picker {
+    margin-bottom: 8vh;
+    border: #333 1px solid;
+}
+
+.emoji-picker span {
+    cursor: pointer;
+}
+
+
+.image-thumbnail {
+    max-width: 100px;
+    max-height: 100px;
+    cursor: pointer;
+}
